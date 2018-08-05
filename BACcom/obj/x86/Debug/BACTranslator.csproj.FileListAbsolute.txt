@@ -1,0 +1,9 @@
+C:\Users\Pops\source\repos\BACcom\BACcom\obj\x86\Debug\BACTranslator.csproj.CoreCompileInputs.cache
+C:\Users\Pops\source\repos\BACcom\BACcom\obj\x86\Debug\BACcom.exe
+C:\Users\Pops\source\repos\BACcom\BACcom\obj\x86\Debug\BACcom.pdb
+C:\Users\Pops\source\repos\BACcom\BACcom\bin\Debug\DataFiles\BACPackets.txt
+C:\Users\Pops\source\repos\BACcom\BACcom\bin\Debug\DataFiles\BACXMLFile.xml
+C:\Users\Pops\source\repos\BACcom\BACcom\bin\Debug\BACcom.exe
+C:\Users\Pops\source\repos\BACcom\BACcom\bin\Debug\BACcom.pdb
+C:\Users\Pops\source\repos\BACcom\BACcom\bin\Debug\BACcom.exe.CodeAnalysisLog.xml
+C:\Users\Pops\source\repos\BACcom\BACcom\bin\Debug\BACcom.exe.lastcodeanalysissucceeded

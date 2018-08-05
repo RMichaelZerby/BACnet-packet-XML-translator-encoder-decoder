@@ -1,0 +1,12 @@
+C:\Documents and Settings\Mikw Zerby\Local Settings\Application Data\Temporary Projects\BACcom\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\Mikw Zerby\Local Settings\Application Data\Temporary Projects\BACcom\bin\Release\BACcom.exe
+C:\Documents and Settings\Mikw Zerby\Local Settings\Application Data\Temporary Projects\BACcom\bin\Release\BACcom.pdb
+C:\Documents and Settings\Mikw Zerby\Local Settings\Application Data\Temporary Projects\BACcom\obj\x86\Release\BACcom.exe
+C:\Documents and Settings\Mikw Zerby\Local Settings\Application Data\Temporary Projects\BACcom\obj\x86\Release\BACcom.pdb
+C:\Documents and Settings\Mikw Zerby\my documents\visual studio 2010\Projects\BACcom\BACcom\bin\Release\BACcom.exe
+C:\Documents and Settings\Mikw Zerby\my documents\visual studio 2010\Projects\BACcom\BACcom\bin\Release\BACcom.pdb
+C:\Documents and Settings\Mikw Zerby\my documents\visual studio 2010\Projects\BACcom\BACcom\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\Mikw Zerby\my documents\visual studio 2010\Projects\BACcom\BACcom\obj\x86\Release\BACcom.exe
+C:\Documents and Settings\Mikw Zerby\my documents\visual studio 2010\Projects\BACcom\BACcom\obj\x86\Release\BACcom.pdb
+C:\Documents and Settings\Mikw Zerby\my documents\visual studio 2010\Projects\BACcom\BACcom\bin\Release\DataFiles\Data1.txt
+C:\Documents and Settings\Mikw Zerby\my documents\visual studio 2010\Projects\BACcom\BACcom\bin\Release\DataFiles\XMLFile2.xml

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<BAC_MSG>
+  <BVLL_IP>
+    <Function>ORIGINAL_UNICAST_NPDU</Function>
+    <NetworkCtl>
+      <MessageType>APPICATION</MessageType>
+      <Destination>
+        <Port>204A</Port>
+        <IPAddr>4A.20.65.0.0.0</IPAddr>
+        <HopCount>FF</HopCount>
+      </Destination>
+      <ExpectingReply>No</ExpectingReply>
+    </NetworkCtl>
+    <PDUUnConfirmedService>
+      <Service>WHO_IS</Service>
+    </PDUUnConfirmedService>
+  </BVLL_IP>
+</BAC_MSG>
+
+ 

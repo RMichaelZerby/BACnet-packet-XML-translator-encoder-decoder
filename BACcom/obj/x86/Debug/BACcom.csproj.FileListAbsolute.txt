@@ -1,0 +1,20 @@
+C:\Documents and Settings\Mikw Zerby\Local Settings\Application Data\Temporary Projects\BACcom\bin\Debug\BACcom.exe
+C:\Documents and Settings\Mikw Zerby\Local Settings\Application Data\Temporary Projects\BACcom\bin\Debug\BACcom.pdb
+C:\Documents and Settings\Mikw Zerby\Local Settings\Application Data\Temporary Projects\BACcom\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Mikw Zerby\Local Settings\Application Data\Temporary Projects\BACcom\obj\x86\Debug\BACcom.exe
+C:\Documents and Settings\Mikw Zerby\Local Settings\Application Data\Temporary Projects\BACcom\obj\x86\Debug\BACcom.pdb
+C:\Documents and Settings\Mikw Zerby\my documents\visual studio 2010\Projects\BACcom\BACcom\obj\x86\Debug\BACcom.exe
+C:\Documents and Settings\Mikw Zerby\my documents\visual studio 2010\Projects\BACcom\BACcom\obj\x86\Debug\BACcom.pdb
+C:\Documents and Settings\Mikw Zerby\my documents\visual studio 2010\Projects\BACcom\BACcom\bin\Debug\BACcom.exe
+C:\Documents and Settings\Mikw Zerby\my documents\visual studio 2010\Projects\BACcom\BACcom\bin\Debug\BACcom.pdb
+C:\Documents and Settings\Mikw Zerby\my documents\visual studio 2010\Projects\BACcom\BACcom\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Mikw Zerby\my documents\visual studio 2010\Projects\BACcom\BACcom\bin\Debug\DataFiles\Data1.txt
+C:\Documents and Settings\Mikw Zerby\my documents\visual studio 2010\Projects\BACcom\BACcom\bin\Debug\DataFiles\XMLFile2.xml
+C:\Users\Pops\source\repos\BACcom\BACcom\bin\Debug\BACcom.exe
+C:\Users\Pops\source\repos\BACcom\BACcom\bin\Debug\BACcom.pdb
+C:\Users\Pops\source\repos\BACcom\BACcom\obj\x86\Debug\BACcom.csproj.CoreCompileInputs.cache
+C:\Users\Pops\source\repos\BACcom\BACcom\obj\x86\Debug\BACcom.exe
+C:\Users\Pops\source\repos\BACcom\BACcom\obj\x86\Debug\BACcom.pdb
+C:\Users\Pops\source\repos\BACcom\BACcom\obj\x86\Debug\BACcom.csprojAssemblyReference.cache
+C:\Users\Pops\source\repos\BACcom\BACcom\bin\Debug\DataFiles\BACPackets.txt
+C:\Users\Pops\source\repos\BACcom\BACcom\bin\Debug\DataFiles\BACXMLFile.xml

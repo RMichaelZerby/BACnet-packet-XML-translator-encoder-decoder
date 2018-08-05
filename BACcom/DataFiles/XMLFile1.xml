@@ -1,0 +1,1397 @@
+﻿810A001B0124204A064A2065000000FF0204010C0C02000065194C00
+<BVLL_IP>
+  <Function>ORIGINAL_UNICAST_NPDU</Function>
+  <NetworkCtl>
+    <MessageType>APPICATION</MessageType>
+    <Destination>
+      <Port>204A</Port>
+      <IPAddr>4A.20.65.0.0.0.</IPAddr>
+      <HopCount>0</HopCount>
+    </Destination>
+  </NetworkCtl>
+  <PDUComfirmedService>
+    <InvokeID>1</InvokeID>
+    <maxAPDUlengthAccepted>UPTO206</maxAPDUlengthAccepted>
+    <ServiceChoice>READPROPERTY</ServiceChoice>
+  </PDUComfirmedService>
+  <ReadPropety>
+    <ObjectId>
+      <ObjectrType>DEVICE</ObjectrType>
+      <InstanceNumber>65</InstanceNumber>
+    </ObjectId>
+    <PropertyId>OBJECT_LIST</PropertyId>
+  </ReadPropety>
+</BVLL_IP>
+810A002A0108204A064A206500000030010C0C02000065194C3EC402000065C401000015C4010000293F00
+<BVLL_IP>
+  <Function>ORIGINAL_UNICAST_NPDU</Function>
+  <NetworkCtl>
+    <MessageType>APPICATION</MessageType>
+    <Source>
+      <Port>204A</Port>
+      <IPAddr>4A.20.65.0.0.0.</IPAddr>
+    </Source>
+  </NetworkCtl>
+  <ComplexAck>
+    <InvokeID>1</InvokeID>
+    <serviceACKchoice>READPROPERTY</serviceACKchoice>
+    <ReadPropety>
+      <ObjectId>
+        <ObjectrType>DEVICE</ObjectrType>
+        <InstanceNumber>65</InstanceNumber>
+      </ObjectId>
+      <PropertyId>OBJECT_LIST</PropertyId>
+      <Constructed>
+        <ObjectId>
+          <ObjectrType>DEVICE</ObjectrType>
+          <InstanceNumber>65</InstanceNumber>
+        </ObjectId>
+        <ObjectId>
+          <ObjectrType>BINARY_OUTPUT</ObjectrType>
+          <InstanceNumber>15</InstanceNumber>
+        </ObjectId>
+        <ObjectId>
+          <ObjectrType>BINARY_OUTPUT</ObjectrType>
+          <InstanceNumber>29</InstanceNumber>
+        </ObjectId>
+      </Constructed>
+    </ReadPropety>
+  </ComplexAck>
+</BVLL_IP>
+810A001B0124204A064A2066000000FF0204010C0C02000066194C00
+<BVLL_IP>
+  <Function>ORIGINAL_UNICAST_NPDU</Function>
+  <NetworkCtl>
+    <MessageType>APPICATION</MessageType>
+    <Destination>
+      <Port>204A</Port>
+      <IPAddr>4A.20.66.0.0.0.</IPAddr>
+      <HopCount>0</HopCount>
+    </Destination>
+  </NetworkCtl>
+  <PDUComfirmedService>
+    <InvokeID>1</InvokeID>
+    <maxAPDUlengthAccepted>UPTO206</maxAPDUlengthAccepted>
+    <ServiceChoice>READPROPERTY</ServiceChoice>
+  </PDUComfirmedService>
+  <ReadPropety>
+    <ObjectId>
+      <ObjectrType>DEVICE</ObjectrType>
+      <InstanceNumber>66</InstanceNumber>
+    </ObjectId>
+    <PropertyId>OBJECT_LIST</PropertyId>
+  </ReadPropety>
+</BVLL_IP>
+810A002A0108204A064A206600000030010C0C02000066194C3EC402000066C400C00015C400C000293F00
+<BVLL_IP>
+  <Function>ORIGINAL_UNICAST_NPDU</Function>
+  <NetworkCtl>
+    <MessageType>APPICATION</MessageType>
+    <Source>
+      <Port>204A</Port>
+      <IPAddr>4A.20.66.0.0.0.</IPAddr>
+    </Source>
+  </NetworkCtl>
+  <ComplexAck>
+    <InvokeID>1</InvokeID>
+    <serviceACKchoice>READPROPERTY</serviceACKchoice>
+    <ReadPropety>
+      <ObjectId>
+        <ObjectrType>DEVICE</ObjectrType>
+        <InstanceNumber>66</InstanceNumber>
+      </ObjectId>
+      <PropertyId>OBJECT_LIST</PropertyId>
+      <Constructed>
+        <ObjectId>
+          <ObjectrType>DEVICE</ObjectrType>
+          <InstanceNumber>66</InstanceNumber>
+        </ObjectId>
+        <ObjectId>
+          <ObjectrType>BINARY_INPUT</ObjectrType>
+          <InstanceNumber>15</InstanceNumber>
+        </ObjectId>
+        <ObjectId>
+          <ObjectrType>BINARY_INPUT</ObjectrType>
+          <InstanceNumber>29</InstanceNumber>
+        </ObjectId>
+      </Constructed>
+    </ReadPropety>
+  </ComplexAck>
+</BVLL_IP>
+810A00120120204A064A2065000000FF100800
+<BVLL_IP>
+  <Function>ORIGINAL_UNICAST_NPDU</Function>
+  <NetworkCtl>
+    <MessageType>APPICATION</MessageType>
+    <Destination>
+      <Port>204A</Port>
+      <IPAddr>4A.20.65.0.0.0.</IPAddr>
+      <HopCount>0</HopCount>
+    </Destination>
+  </NetworkCtl>
+  <PDUUnConfirmedService>
+    <Service>WHO_IS</Service>
+  </PDUUnConfirmedService>
+</BVLL_IP>
+810A001501001000C4020000642205C4910322014F00
+<BVLL_IP>
+  <Function>ORIGINAL_UNICAST_NPDU</Function>
+  <NetworkCtl>
+    <MessageType>APPICATION</MessageType>
+  </NetworkCtl>
+  <PDUUnConfirmedService>
+    <Service>I_AM</Service>
+    <ObjectId>
+      <ObjectrType>DEVICE</ObjectrType>
+      <InstanceNumber>64</InstanceNumber>
+    </ObjectId>
+    <UInteger>05C4</UInteger>
+    <Enumerator>03</Enumerator>
+    <UInteger>014F</UInteger>
+  </PDUUnConfirmedService>
+</BVLL_IP>
+810A001E0108204A064A20650000001000C4020000652205C4910322014F00
+<BVLL_IP>
+  <Function>ORIGINAL_UNICAST_NPDU</Function>
+  <NetworkCtl>
+    <MessageType>APPICATION</MessageType>
+    <Source>
+      <Port>204A</Port>
+      <IPAddr>4A.20.65.0.0.0.</IPAddr>
+    </Source>
+  </NetworkCtl>
+  <PDUUnConfirmedService>
+    <Service>I_AM</Service>
+    <ObjectId>
+      <ObjectrType>DEVICE</ObjectrType>
+      <InstanceNumber>65</InstanceNumber>
+    </ObjectId>
+    <UInteger>05C4</UInteger>
+    <Enumerator>03</Enumerator>
+    <UInteger>014F</UInteger>
+  </PDUUnConfirmedService>
+</BVLL_IP>
+810A001E0108204A064A20660000001000C4020000662205C4910322014F00
+<BVLL_IP>
+  <Function>ORIGINAL_UNICAST_NPDU</Function>
+  <NetworkCtl>
+    <MessageType>APPICATION</MessageType>
+    <Source>
+      <Port>204A</Port>
+      <IPAddr>4A.20.66.0.0.0.</IPAddr>
+    </Source>
+  </NetworkCtl>
+  <PDUUnConfirmedService>
+    <Service>I_AM</Service>
+    <ObjectId>
+      <ObjectrType>DEVICE</ObjectrType>
+      <InstanceNumber>66</InstanceNumber>
+    </ObjectId>
+    <UInteger>05C4</UInteger>
+    <Enumerator>03</Enumerator>
+    <UInteger>014F</UInteger>
+  </PDUUnConfirmedService>
+</BVLL_IP>
+810A00120120204A064A2066000000FF100800
+<BVLL_IP>
+  <Function>ORIGINAL_UNICAST_NPDU</Function>
+  <NetworkCtl>
+    <MessageType>APPICATION</MessageType>
+    <Destination>
+      <Port>204A</Port>
+      <IPAddr>4A.20.66.0.0.0.</IPAddr>
+      <HopCount>0</HopCount>
+    </Destination>
+  </NetworkCtl>
+  <PDUUnConfirmedService>
+    <Service>WHO_IS</Service>
+  </PDUUnConfirmedService>
+</BVLL_IP>
+810A001501001000C4020000642205C4910322014F00
+<BVLL_IP>
+  <Function>ORIGINAL_UNICAST_NPDU</Function>
+  <NetworkCtl>
+    <MessageType>APPICATION</MessageType>
+  </NetworkCtl>
+  <PDUUnConfirmedService>
+    <Service>I_AM</Service>
+    <ObjectId>
+      <ObjectrType>DEVICE</ObjectrType>
+      <InstanceNumber>64</InstanceNumber>
+    </ObjectId>
+    <UInteger>05C4</UInteger>
+    <Enumerator>03</Enumerator>
+    <UInteger>014F</UInteger>
+  </PDUUnConfirmedService>
+</BVLL_IP>
+810A001E0108204A064A20650000001000C4020000652205C4910322014F00
+<BVLL_IP>
+  <Function>ORIGINAL_UNICAST_NPDU</Function>
+  <NetworkCtl>
+    <MessageType>APPICATION</MessageType>
+    <Source>
+      <Port>204A</Port>
+      <IPAddr>4A.20.65.0.0.0.</IPAddr>
+    </Source>
+  </NetworkCtl>
+  <PDUUnConfirmedService>
+    <Service>I_AM</Service>
+    <ObjectId>
+      <ObjectrType>DEVICE</ObjectrType>
+      <InstanceNumber>65</InstanceNumber>
+    </ObjectId>
+    <UInteger>05C4</UInteger>
+    <Enumerator>03</Enumerator>
+    <UInteger>014F</UInteger>
+  </PDUUnConfirmedService>
+</BVLL_IP>
+810A001E0108204A064A20660000001000C4020000662205C4910322014F00
+<BVLL_IP>
+  <Function>ORIGINAL_UNICAST_NPDU</Function>
+  <NetworkCtl>
+    <MessageType>APPICATION</MessageType>
+    <Source>
+      <Port>204A</Port>
+      <IPAddr>4A.20.66.0.0.0.</IPAddr>
+    </Source>
+  </NetworkCtl>
+  <PDUUnConfirmedService>
+    <Service>I_AM</Service>
+    <ObjectId>
+      <ObjectrType>DEVICE</ObjectrType>
+      <InstanceNumber>66</InstanceNumber>
+    </ObjectId>
+    <UInteger>05C4</UInteger>
+    <Enumerator>03</Enumerator>
+    <UInteger>014F</UInteger>
+  </PDUUnConfirmedService>
+</BVLL_IP>
+810A000F01000005050C0C0000000000
+<BVLL_IP>
+  <Function>ORIGINAL_UNICAST_NPDU</Function>
+  <NetworkCtl>
+    <MessageType>APPICATION</MessageType>
+  </NetworkCtl>
+  <PDUComfirmedService>
+    <InvokeID>5</InvokeID>
+    <maxAPDUlengthAccepted>UPTO206</maxAPDUlengthAccepted>
+    <ServiceChoice>READPROPERTY</ServiceChoice>
+  </PDUComfirmedService>
+  <Reject>
+    <Reason>MISSING_REQUIRED_PARAMETER</Reason>
+  </Reject>
+</BVLL_IP>
+810B000C01A0FFFF00FF060000
+<BVLL_IP>
+  <Function>ORIGINAL_BROADCAST_NPDU</Function>
+  <NetworkCtl>
+    <MessageType>NETWORK</MessageType>
+    <Destination>
+      <Port>FFFF</Port>
+      <IPAddr></IPAddr>
+      <HopCount>0</HopCount>
+    </Destination>
+  </NetworkCtl>
+  <NSDU_INITIALIZE_ROUTING_TABLE>query contents</NSDU_INITIALIZE_ROUTING_TABLE>
+</BVLL_IP>
+810B000C01A0FFFF00FF060000
+<BVLL_IP>
+  <Function>ORIGINAL_BROADCAST_NPDU</Function>
+  <NetworkCtl>
+    <MessageType>NETWORK</MessageType>
+    <Destination>
+      <Port>FFFF</Port>
+      <IPAddr></IPAddr>
+      <HopCount>0</HopCount>
+    </Destination>
+  </NetworkCtl>
+  <NSDU_INITIALIZE_ROUTING_TABLE>query contents</NSDU_INITIALIZE_ROUTING_TABLE>
+</BVLL_IP>
+810B000C01A0FFFF00FF060000
+<BVLL_IP>
+  <Function>ORIGINAL_BROADCAST_NPDU</Function>
+  <NetworkCtl>
+    <MessageType>NETWORK</MessageType>
+    <Destination>
+      <Port>FFFF</Port>
+      <IPAddr></IPAddr>
+      <HopCount>0</HopCount>
+    </Destination>
+  </NetworkCtl>
+  <NSDU_INITIALIZE_ROUTING_TABLE>query contents</NSDU_INITIALIZE_ROUTING_TABLE>
+</BVLL_IP>
+810B001001A0FFFF000E0701204A010000
+<BVLL_IP>
+  <Function>ORIGINAL_BROADCAST_NPDU</Function>
+  <NetworkCtl>
+    <MessageType>NETWORK</MessageType>
+    <Destination>
+      <Port>FFFF</Port>
+      <IPAddr></IPAddr>
+      <HopCount>0</HopCount>
+    </Destination>
+  </NetworkCtl>
+  <NSDU_INITIALIZE_ROUTING_TABLE_ACK>
+    <Route>
+      <ConnectedDNET>204A</ConnectedDNET>
+      <PortId>1</PortId>
+      <PortInfo>204A</PortInfo>
+    </Route>
+  </NSDU_INITIALIZE_ROUTING_TABLE_ACK>
+</BVLL_IP>
+810B000C0120FFFF00FF100800
+<BVLL_IP>
+  <Function>ORIGINAL_BROADCAST_NPDU</Function>
+  <NetworkCtl>
+    <MessageType>APPICATION</MessageType>
+    <Destination>
+      <Port>FFFF</Port>
+      <IPAddr></IPAddr>
+      <HopCount>0</HopCount>
+    </Destination>
+  </NetworkCtl>
+  <PDUUnConfirmedService>
+    <Service>WHO_IS</Service>
+  </PDUUnConfirmedService>
+</BVLL_IP>
+810B000C0120FFFF00FF100800
+<BVLL_IP>
+  <Function>ORIGINAL_BROADCAST_NPDU</Function>
+  <NetworkCtl>
+    <MessageType>APPICATION</MessageType>
+    <Destination>
+      <Port>FFFF</Port>
+      <IPAddr></IPAddr>
+      <HopCount>0</HopCount>
+    </Destination>
+  </NetworkCtl>
+  <PDUUnConfirmedService>
+    <Service>WHO_IS</Service>
+  </PDUUnConfirmedService>
+</BVLL_IP>
+810B000C0120FFFF00FF100800
+<BVLL_IP>
+  <Function>ORIGINAL_BROADCAST_NPDU</Function>
+  <NetworkCtl>
+    <MessageType>APPICATION</MessageType>
+    <Destination>
+      <Port>FFFF</Port>
+      <IPAddr></IPAddr>
+      <HopCount>0</HopCount>
+    </Destination>
+  </NetworkCtl>
+  <PDUUnConfirmedService>
+    <Service>WHO_IS</Service>
+  </PDUUnConfirmedService>
+</BVLL_IP>
+810A001101000005000C0C00000000198B00
+<BVLL_IP>
+  <Function>ORIGINAL_UNICAST_NPDU</Function>
+  <NetworkCtl>
+    <MessageType>APPICATION</MessageType>
+  </NetworkCtl>
+  <PDUComfirmedService>
+    <InvokeID>0</InvokeID>
+    <maxAPDUlengthAccepted>UPTO206</maxAPDUlengthAccepted>
+    <ServiceChoice>READPROPERTY</ServiceChoice>
+  </PDUComfirmedService>
+  <ReadPropety>
+    <ObjectId>
+      <ObjectrType>ANALOG_INPUT</ObjectrType>
+      <InstanceNumber>0</InstanceNumber>
+    </ObjectId>
+    <PropertyId>PROTOCOL_REVISION</PropertyId>
+  </ReadPropety>
+</BVLL_IP>
+810A000D010050000C9101911F00
+<BVLL_IP>
+  <Function>ORIGINAL_UNICAST_NPDU</Function>
+  <NetworkCtl>
+    <MessageType>APPICATION</MessageType>
+  </NetworkCtl>
+  <PDUError>
+    <Type>PDU_CONFIRMED_REQUEST</Type>
+    <InvokedId>0</InvokedId>
+    <ServiceChoseError>READPROPERTY_ERROR</ServiceChoseError>
+    <BACNET_ERROR_CLASS>OBJECT</BACNET_ERROR_CLASS>
+    <BACNET_ERROR_CODE>UNKNOWN_OBJECT</BACNET_ERROR_CODE>
+  </PDUError>
+</BVLL_IP>
+810A00080100100800
+<BVLL_IP>
+  <Function>ORIGINAL_UNICAST_NPDU</Function>
+  <NetworkCtl>
+    <MessageType>APPICATION</MessageType>
+  </NetworkCtl>
+  <PDUUnConfirmedService>
+    <Service>WHO_IS</Service>
+  </PDUUnConfirmedService>
+</BVLL_IP>
+810A001501001000C4020000642205C4910322014F00
+<BVLL_IP>
+  <Function>ORIGINAL_UNICAST_NPDU</Function>
+  <NetworkCtl>
+    <MessageType>APPICATION</MessageType>
+  </NetworkCtl>
+  <PDUUnConfirmedService>
+    <Service>I_AM</Service>
+    <ObjectId>
+      <ObjectrType>DEVICE</ObjectrType>
+      <InstanceNumber>64</InstanceNumber>
+    </ObjectId>
+    <UInteger>05C4</UInteger>
+    <Enumerator>03</Enumerator>
+    <UInteger>014F</UInteger>
+  </PDUUnConfirmedService>
+</BVLL_IP>
+810A00080100100800
+<BVLL_IP>
+  <Function>ORIGINAL_UNICAST_NPDU</Function>
+  <NetworkCtl>
+    <MessageType>APPICATION</MessageType>
+  </NetworkCtl>
+  <PDUUnConfirmedService>
+    <Service>WHO_IS</Service>
+  </PDUUnConfirmedService>
+</BVLL_IP>
+810A001E0108204A064A20650000001000C4020000652205C4910322014F00
+<BVLL_IP>
+  <Function>ORIGINAL_UNICAST_NPDU</Function>
+  <NetworkCtl>
+    <MessageType>APPICATION</MessageType>
+    <Source>
+      <Port>204A</Port>
+      <IPAddr>4A.20.65.0.0.0.</IPAddr>
+    </Source>
+  </NetworkCtl>
+  <PDUUnConfirmedService>
+    <Service>I_AM</Service>
+    <ObjectId>
+      <ObjectrType>DEVICE</ObjectrType>
+      <InstanceNumber>65</InstanceNumber>
+    </ObjectId>
+    <UInteger>05C4</UInteger>
+    <Enumerator>03</Enumerator>
+    <UInteger>014F</UInteger>
+  </PDUUnConfirmedService>
+</BVLL_IP>
+810A00080100100800
+<BVLL_IP>
+  <Function>ORIGINAL_UNICAST_NPDU</Function>
+  <NetworkCtl>
+    <MessageType>APPICATION</MessageType>
+  </NetworkCtl>
+  <PDUUnConfirmedService>
+    <Service>WHO_IS</Service>
+  </PDUUnConfirmedService>
+</BVLL_IP>
+810A001E0108204A064A20660000001000C4020000662205C4910322014F00
+<BVLL_IP>
+  <Function>ORIGINAL_UNICAST_NPDU</Function>
+  <NetworkCtl>
+    <MessageType>APPICATION</MessageType>
+    <Source>
+      <Port>204A</Port>
+      <IPAddr>4A.20.66.0.0.0.</IPAddr>
+    </Source>
+  </NetworkCtl>
+  <PDUUnConfirmedService>
+    <Service>I_AM</Service>
+    <ObjectId>
+      <ObjectrType>DEVICE</ObjectrType>
+      <InstanceNumber>66</InstanceNumber>
+    </ObjectId>
+    <UInteger>05C4</UInteger>
+    <Enumerator>03</Enumerator>
+    <UInteger>014F</UInteger>
+  </PDUUnConfirmedService>
+</BVLL_IP>
+810A001501001000C4020000642205C4910322014F00
+<BVLL_IP>
+  <Function>ORIGINAL_UNICAST_NPDU</Function>
+  <NetworkCtl>
+    <MessageType>APPICATION</MessageType>
+  </NetworkCtl>
+  <PDUUnConfirmedService>
+    <Service>I_AM</Service>
+    <ObjectId>
+      <ObjectrType>DEVICE</ObjectrType>
+      <InstanceNumber>64</InstanceNumber>
+    </ObjectId>
+    <UInteger>05C4</UInteger>
+    <Enumerator>03</Enumerator>
+    <UInteger>014F</UInteger>
+  </PDUUnConfirmedService>
+</BVLL_IP>
+810A001E0108204A064A20650000001000C4020000652205C4910322014F00
+<BVLL_IP>
+  <Function>ORIGINAL_UNICAST_NPDU</Function>
+  <NetworkCtl>
+    <MessageType>APPICATION</MessageType>
+    <Source>
+      <Port>204A</Port>
+      <IPAddr>4A.20.65.0.0.0.</IPAddr>
+    </Source>
+  </NetworkCtl>
+  <PDUUnConfirmedService>
+    <Service>I_AM</Service>
+    <ObjectId>
+      <ObjectrType>DEVICE</ObjectrType>
+      <InstanceNumber>65</InstanceNumber>
+    </ObjectId>
+    <UInteger>05C4</UInteger>
+    <Enumerator>03</Enumerator>
+    <UInteger>014F</UInteger>
+  </PDUUnConfirmedService>
+</BVLL_IP>
+810A001E0108204A064A20660000001000C4020000662205C4910322014F00
+<BVLL_IP>
+  <Function>ORIGINAL_UNICAST_NPDU</Function>
+  <NetworkCtl>
+    <MessageType>APPICATION</MessageType>
+    <Source>
+      <Port>204A</Port>
+      <IPAddr>4A.20.66.0.0.0.</IPAddr>
+    </Source>
+  </NetworkCtl>
+  <PDUUnConfirmedService>
+    <Service>I_AM</Service>
+    <ObjectId>
+      <ObjectrType>DEVICE</ObjectrType>
+      <InstanceNumber>66</InstanceNumber>
+    </ObjectId>
+    <UInteger>05C4</UInteger>
+    <Enumerator>03</Enumerator>
+    <UInteger>014F</UInteger>
+  </PDUUnConfirmedService>
+</BVLL_IP>
+810A001501001000C4020000642205C4910322014F00
+<BVLL_IP>
+  <Function>ORIGINAL_UNICAST_NPDU</Function>
+  <NetworkCtl>
+    <MessageType>APPICATION</MessageType>
+  </NetworkCtl>
+  <PDUUnConfirmedService>
+    <Service>I_AM</Service>
+    <ObjectId>
+      <ObjectrType>DEVICE</ObjectrType>
+      <InstanceNumber>64</InstanceNumber>
+    </ObjectId>
+    <UInteger>05C4</UInteger>
+    <Enumerator>03</Enumerator>
+    <UInteger>014F</UInteger>
+  </PDUUnConfirmedService>
+</BVLL_IP>
+810A001E0108204A064A20650000001000C4020000652205C4910322014F00
+<BVLL_IP>
+  <Function>ORIGINAL_UNICAST_NPDU</Function>
+  <NetworkCtl>
+    <MessageType>APPICATION</MessageType>
+    <Source>
+      <Port>204A</Port>
+      <IPAddr>4A.20.65.0.0.0.</IPAddr>
+    </Source>
+  </NetworkCtl>
+  <PDUUnConfirmedService>
+    <Service>I_AM</Service>
+    <ObjectId>
+      <ObjectrType>DEVICE</ObjectrType>
+      <InstanceNumber>65</InstanceNumber>
+    </ObjectId>
+    <UInteger>05C4</UInteger>
+    <Enumerator>03</Enumerator>
+    <UInteger>014F</UInteger>
+  </PDUUnConfirmedService>
+</BVLL_IP>
+810A001E0108204A064A20660000001000C4020000662205C4910322014F00
+<BVLL_IP>
+  <Function>ORIGINAL_UNICAST_NPDU</Function>
+  <NetworkCtl>
+    <MessageType>APPICATION</MessageType>
+    <Source>
+      <Port>204A</Port>
+      <IPAddr>4A.20.66.0.0.0.</IPAddr>
+    </Source>
+  </NetworkCtl>
+  <PDUUnConfirmedService>
+    <Service>I_AM</Service>
+    <ObjectId>
+      <ObjectrType>DEVICE</ObjectrType>
+      <InstanceNumber>66</InstanceNumber>
+    </ObjectId>
+    <UInteger>05C4</UInteger>
+    <Enumerator>03</Enumerator>
+    <UInteger>014F</UInteger>
+  </PDUUnConfirmedService>
+</BVLL_IP>
+810A001101000005010C0C02000064196100
+<BVLL_IP>
+  <Function>ORIGINAL_UNICAST_NPDU</Function>
+  <NetworkCtl>
+    <MessageType>APPICATION</MessageType>
+  </NetworkCtl>
+  <PDUComfirmedService>
+    <InvokeID>1</InvokeID>
+    <maxAPDUlengthAccepted>UPTO206</maxAPDUlengthAccepted>
+    <ServiceChoice>READPROPERTY</ServiceChoice>
+  </PDUComfirmedService>
+  <ReadPropety>
+    <ObjectId>
+      <ObjectrType>DEVICE</ObjectrType>
+      <InstanceNumber>64</InstanceNumber>
+    </ObjectId>
+    <PropertyId>PROTOCOL_SERVICES_SUPPORTED</PropertyId>
+  </ReadPropety>
+</BVLL_IP>
+810A001A010030010C0C0200006419613E850600000B4030F83F00
+<BVLL_IP>
+  <Function>ORIGINAL_UNICAST_NPDU</Function>
+  <NetworkCtl>
+    <MessageType>APPICATION</MessageType>
+  </NetworkCtl>
+  <ComplexAck>
+    <InvokeID>1</InvokeID>
+    <serviceACKchoice>READPROPERTY</serviceACKchoice>
+    <ReadPropety>
+      <ObjectId>
+        <ObjectrType>DEVICE</ObjectrType>
+        <InstanceNumber>64</InstanceNumber>
+      </ObjectId>
+      <PropertyId>PROTOCOL_SERVICES_SUPPORTED</PropertyId>
+      <Constructed>
+        <BString>0600000B40</BString>
+        <Integer>F8</Integer>
+      </Constructed>
+    </ReadPropety>
+  </ComplexAck>
+</BVLL_IP>
+810A00150108FFFE01030005020C0C02000064194F00
+<BVLL_IP>
+  <Function>ORIGINAL_UNICAST_NPDU</Function>
+  <NetworkCtl>
+    <MessageType>APPICATION</MessageType>
+    <Source>
+      <Port>FFFE</Port>
+      <IPAddr>3</IPAddr>
+    </Source>
+  </NetworkCtl>
+  <PDUComfirmedService>
+    <InvokeID>2</InvokeID>
+    <maxAPDUlengthAccepted>UPTO206</maxAPDUlengthAccepted>
+    <ServiceChoice>READPROPERTY</ServiceChoice>
+  </PDUComfirmedService>
+  <ReadPropety>
+    <ObjectId>
+      <ObjectrType>DEVICE</ObjectrType>
+      <InstanceNumber>64</InstanceNumber>
+    </ObjectId>
+    <PropertyId>OBJECT_TYPE</PropertyId>
+  </ReadPropety>
+</BVLL_IP>
+810A00190120FFFE01030E30020C0C02000064194F3E91083F00
+<BVLL_IP>
+  <Function>ORIGINAL_UNICAST_NPDU</Function>
+  <NetworkCtl>
+    <MessageType>APPICATION</MessageType>
+    <Destination>
+      <Port>FFFE</Port>
+      <IPAddr>3</IPAddr>
+      <HopCount>0</HopCount>
+    </Destination>
+  </NetworkCtl>
+  <ComplexAck>
+    <InvokeID>2</InvokeID>
+    <serviceACKchoice>READPROPERTY</serviceACKchoice>
+    <ReadPropety>
+      <ObjectId>
+        <ObjectrType>DEVICE</ObjectrType>
+        <InstanceNumber>64</InstanceNumber>
+      </ObjectId>
+      <PropertyId>OBJECT_TYPE</PropertyId>
+      <Constructed>
+        <Enumerator>08</Enumerator>
+      </Constructed>
+    </ReadPropety>
+  </ComplexAck>
+</BVLL_IP>
+810A001101000005030C0C023FFFFF194B00
+<BVLL_IP>
+  <Function>ORIGINAL_UNICAST_NPDU</Function>
+  <NetworkCtl>
+    <MessageType>APPICATION</MessageType>
+  </NetworkCtl>
+  <PDUComfirmedService>
+    <InvokeID>3</InvokeID>
+    <maxAPDUlengthAccepted>UPTO206</maxAPDUlengthAccepted>
+    <ServiceChoice>READPROPERTY</ServiceChoice>
+  </PDUComfirmedService>
+  <ReadPropety>
+    <ObjectId>
+      <ObjectrType>DEVICE</ObjectrType>
+      <InstanceNumber>3FFFFF</InstanceNumber>
+    </ObjectId>
+    <PropertyId>OBJECT_IDENTIFIER</PropertyId>
+  </ReadPropety>
+</BVLL_IP>
+810A0017010030030C0C023FFFFF194B3EC4020000643F00
+<BVLL_IP>
+  <Function>ORIGINAL_UNICAST_NPDU</Function>
+  <NetworkCtl>
+    <MessageType>APPICATION</MessageType>
+  </NetworkCtl>
+  <ComplexAck>
+    <InvokeID>3</InvokeID>
+    <serviceACKchoice>READPROPERTY</serviceACKchoice>
+    <ReadPropety>
+      <ObjectId>
+        <ObjectrType>DEVICE</ObjectrType>
+        <InstanceNumber>3FFFFF</InstanceNumber>
+      </ObjectId>
+      <PropertyId>OBJECT_IDENTIFIER</PropertyId>
+      <Constructed>
+        <ObjectId>
+          <ObjectrType>DEVICE</ObjectrType>
+          <InstanceNumber>64</InstanceNumber>
+        </ObjectId>
+      </Constructed>
+    </ReadPropety>
+  </ComplexAck>
+</BVLL_IP>
+810B00120120FFFF00FE100809001B3FFFFF00
+<BVLL_IP>
+  <Function>ORIGINAL_BROADCAST_NPDU</Function>
+  <NetworkCtl>
+    <MessageType>APPICATION</MessageType>
+    <Destination>
+      <Port>FFFF</Port>
+      <IPAddr></IPAddr>
+      <HopCount>0</HopCount>
+    </Destination>
+  </NetworkCtl>
+  <PDUUnConfirmedService>
+    <Service>WHO_IS</Service>
+    <UInteger>00</UInteger>
+    <UInteger>3FFFFF</UInteger>
+  </PDUUnConfirmedService>
+</BVLL_IP>
+810B00120120FFFF00FE100809001B3FFFFF00
+<BVLL_IP>
+  <Function>ORIGINAL_BROADCAST_NPDU</Function>
+  <NetworkCtl>
+    <MessageType>APPICATION</MessageType>
+    <Destination>
+      <Port>FFFF</Port>
+      <IPAddr></IPAddr>
+      <HopCount>0</HopCount>
+    </Destination>
+  </NetworkCtl>
+  <PDUUnConfirmedService>
+    <Service>WHO_IS</Service>
+    <UInteger>00</UInteger>
+    <UInteger>3FFFFF</UInteger>
+  </PDUUnConfirmedService>
+</BVLL_IP>
+810B00120120FFFF00FE100809001B3FFFFF00
+<BVLL_IP>
+  <Function>ORIGINAL_BROADCAST_NPDU</Function>
+  <NetworkCtl>
+    <MessageType>APPICATION</MessageType>
+    <Destination>
+      <Port>FFFF</Port>
+      <IPAddr></IPAddr>
+      <HopCount>0</HopCount>
+    </Destination>
+  </NetworkCtl>
+  <PDUUnConfirmedService>
+    <Service>WHO_IS</Service>
+    <UInteger>00</UInteger>
+    <UInteger>3FFFFF</UInteger>
+  </PDUUnConfirmedService>
+</BVLL_IP>
+810B00100120FFFF00FE10080964196400
+<BVLL_IP>
+  <Function>ORIGINAL_BROADCAST_NPDU</Function>
+  <NetworkCtl>
+    <MessageType>APPICATION</MessageType>
+    <Destination>
+      <Port>FFFF</Port>
+      <IPAddr></IPAddr>
+      <HopCount>0</HopCount>
+    </Destination>
+  </NetworkCtl>
+  <PDUUnConfirmedService>
+    <Service>WHO_IS</Service>
+    <UInteger>64</UInteger>
+    <UInteger>64</UInteger>
+  </PDUUnConfirmedService>
+</BVLL_IP>
+810B00100120FFFF00FE10080964196400
+<BVLL_IP>
+  <Function>ORIGINAL_BROADCAST_NPDU</Function>
+  <NetworkCtl>
+    <MessageType>APPICATION</MessageType>
+    <Destination>
+      <Port>FFFF</Port>
+      <IPAddr></IPAddr>
+      <HopCount>0</HopCount>
+    </Destination>
+  </NetworkCtl>
+  <PDUUnConfirmedService>
+    <Service>WHO_IS</Service>
+    <UInteger>64</UInteger>
+    <UInteger>64</UInteger>
+  </PDUUnConfirmedService>
+</BVLL_IP>
+810B00100120FFFF00FE10080964196400
+<BVLL_IP>
+  <Function>ORIGINAL_BROADCAST_NPDU</Function>
+  <NetworkCtl>
+    <MessageType>APPICATION</MessageType>
+    <Destination>
+      <Port>FFFF</Port>
+      <IPAddr></IPAddr>
+      <HopCount>0</HopCount>
+    </Destination>
+  </NetworkCtl>
+  <PDUUnConfirmedService>
+    <Service>WHO_IS</Service>
+    <UInteger>64</UInteger>
+    <UInteger>64</UInteger>
+  </PDUUnConfirmedService>
+</BVLL_IP>
+810B000E0120FFFF00FE1008096400
+<BVLL_IP>
+  <Function>ORIGINAL_BROADCAST_NPDU</Function>
+  <NetworkCtl>
+    <MessageType>APPICATION</MessageType>
+    <Destination>
+      <Port>FFFF</Port>
+      <IPAddr></IPAddr>
+      <HopCount>0</HopCount>
+    </Destination>
+  </NetworkCtl>
+  <PDUUnConfirmedService>
+    <Service>WHO_IS</Service>
+    <UInteger>64</UInteger>
+  </PDUUnConfirmedService>
+</BVLL_IP>
+810B000E0120FFFF00FE1008096400
+<BVLL_IP>
+  <Function>ORIGINAL_BROADCAST_NPDU</Function>
+  <NetworkCtl>
+    <MessageType>APPICATION</MessageType>
+    <Destination>
+      <Port>FFFF</Port>
+      <IPAddr></IPAddr>
+      <HopCount>0</HopCount>
+    </Destination>
+  </NetworkCtl>
+  <PDUUnConfirmedService>
+    <Service>WHO_IS</Service>
+    <UInteger>64</UInteger>
+  </PDUUnConfirmedService>
+</BVLL_IP>
+810B000E0120FFFF00FE1008096400
+<BVLL_IP>
+  <Function>ORIGINAL_BROADCAST_NPDU</Function>
+  <NetworkCtl>
+    <MessageType>APPICATION</MessageType>
+    <Destination>
+      <Port>FFFF</Port>
+      <IPAddr></IPAddr>
+      <HopCount>0</HopCount>
+    </Destination>
+  </NetworkCtl>
+  <PDUUnConfirmedService>
+    <Service>WHO_IS</Service>
+    <UInteger>64</UInteger>
+  </PDUUnConfirmedService>
+</BVLL_IP>
+810B00100120FFFF00FE10080965196300
+<BVLL_IP>
+  <Function>ORIGINAL_BROADCAST_NPDU</Function>
+  <NetworkCtl>
+    <MessageType>APPICATION</MessageType>
+    <Destination>
+      <Port>FFFF</Port>
+      <IPAddr></IPAddr>
+      <HopCount>0</HopCount>
+    </Destination>
+  </NetworkCtl>
+  <PDUUnConfirmedService>
+    <Service>WHO_IS</Service>
+    <UInteger>65</UInteger>
+    <UInteger>63</UInteger>
+  </PDUUnConfirmedService>
+</BVLL_IP>
+810B00100120FFFF00FE10080965196300
+<BVLL_IP>
+  <Function>ORIGINAL_BROADCAST_NPDU</Function>
+  <NetworkCtl>
+    <MessageType>APPICATION</MessageType>
+    <Destination>
+      <Port>FFFF</Port>
+      <IPAddr></IPAddr>
+      <HopCount>0</HopCount>
+    </Destination>
+  </NetworkCtl>
+  <PDUUnConfirmedService>
+    <Service>WHO_IS</Service>
+    <UInteger>65</UInteger>
+    <UInteger>63</UInteger>
+  </PDUUnConfirmedService>
+</BVLL_IP>
+810B00100120FFFF00FE10080965196300
+<BVLL_IP>
+  <Function>ORIGINAL_BROADCAST_NPDU</Function>
+  <NetworkCtl>
+    <MessageType>APPICATION</MessageType>
+    <Destination>
+      <Port>FFFF</Port>
+      <IPAddr></IPAddr>
+      <HopCount>0</HopCount>
+    </Destination>
+  </NetworkCtl>
+  <PDUUnConfirmedService>
+    <Service>WHO_IS</Service>
+    <UInteger>65</UInteger>
+    <UInteger>63</UInteger>
+  </PDUUnConfirmedService>
+</BVLL_IP>
+810A001101000005040C0C00000000294F00
+<BVLL_IP>
+  <Function>ORIGINAL_UNICAST_NPDU</Function>
+  <NetworkCtl>
+    <MessageType>APPICATION</MessageType>
+  </NetworkCtl>
+  <PDUComfirmedService>
+    <InvokeID>4</InvokeID>
+    <maxAPDUlengthAccepted>UPTO206</maxAPDUlengthAccepted>
+    <ServiceChoice>READPROPERTY</ServiceChoice>
+  </PDUComfirmedService>
+  <ReadPropety>
+    <ObjectId>
+      <ObjectrType>ANALOG_INPUT</ObjectrType>
+      <InstanceNumber>0</InstanceNumber>
+    </ObjectId>
+    <PropertyId>OBJECT_TYPE</PropertyId>
+  </ReadPropety>
+</BVLL_IP>
+810A0009010060040400
+<BVLL_IP>
+  <Function>ORIGINAL_UNICAST_NPDU</Function>
+  <NetworkCtl>
+    <MessageType>APPICATION</MessageType>
+  </NetworkCtl>
+  <PDUReject>
+    <Type>PDU_CONFIRMED_REQUEST</Type>
+    <InvokedId>4</InvokedId>
+    <Reason>INVALID_TAG</Reason>
+  </PDUReject>
+</BVLL_IP>
+810A000F01000005050C0C0000000000
+<BVLL_IP>
+  <Function>ORIGINAL_UNICAST_NPDU</Function>
+  <NetworkCtl>
+    <MessageType>APPICATION</MessageType>
+  </NetworkCtl>
+  <PDUComfirmedService>
+    <InvokeID>5</InvokeID>
+    <maxAPDUlengthAccepted>UPTO206</maxAPDUlengthAccepted>
+    <ServiceChoice>READPROPERTY</ServiceChoice>
+  </PDUComfirmedService>
+  <Reject>
+    <Reason>MISSING_REQUIRED_PARAMETER</Reason>
+  </Reject>
+</BVLL_IP>
+810A0009010060050500
+<BVLL_IP>
+  <Function>ORIGINAL_UNICAST_NPDU</Function>
+  <NetworkCtl>
+    <MessageType>APPICATION</MessageType>
+  </NetworkCtl>
+  <PDUReject>
+    <Type>PDU_CONFIRMED_REQUEST</Type>
+    <InvokedId>5</InvokedId>
+    <Reason>MISSING_REQUIRED_PARAMETER</Reason>
+  </PDUReject>
+</BVLL_IP>
+810A001301000005060C0C00000000194F194B00
+<BVLL_IP>
+  <Function>ORIGINAL_UNICAST_NPDU</Function>
+  <NetworkCtl>
+    <MessageType>APPICATION</MessageType>
+  </NetworkCtl>
+  <PDUComfirmedService>
+    <InvokeID>6</InvokeID>
+    <maxAPDUlengthAccepted>UPTO206</maxAPDUlengthAccepted>
+    <ServiceChoice>READPROPERTY</ServiceChoice>
+  </PDUComfirmedService>
+  <ReadPropety>
+    <ObjectId>
+      <ObjectrType>ANALOG_INPUT</ObjectrType>
+      <InstanceNumber>0</InstanceNumber>
+    </ObjectId>
+    <PropertyId>OBJECT_TYPE</PropertyId>
+    <Real>4B</Real>
+  </ReadPropety>
+</BVLL_IP>
+810A0009010060060400
+<BVLL_IP>
+  <Function>ORIGINAL_UNICAST_NPDU</Function>
+  <NetworkCtl>
+    <MessageType>APPICATION</MessageType>
+  </NetworkCtl>
+  <PDUReject>
+    <Type>PDU_CONFIRMED_REQUEST</Type>
+    <InvokedId>6</InvokedId>
+    <Reason>INVALID_TAG</Reason>
+  </PDUReject>
+</BVLL_IP>
+810A001301000005070C0C00000000194F290300
+<BVLL_IP>
+  <Function>ORIGINAL_UNICAST_NPDU</Function>
+  <NetworkCtl>
+    <MessageType>APPICATION</MessageType>
+  </NetworkCtl>
+  <PDUComfirmedService>
+    <InvokeID>7</InvokeID>
+    <maxAPDUlengthAccepted>UPTO206</maxAPDUlengthAccepted>
+    <ServiceChoice>READPROPERTY</ServiceChoice>
+  </PDUComfirmedService>
+  <ReadPropety>
+    <ObjectId>
+      <ObjectrType>ANALOG_INPUT</ObjectrType>
+      <InstanceNumber>0</InstanceNumber>
+    </ObjectId>
+    <PropertyId>OBJECT_TYPE</PropertyId>
+    <Real>03</Real>
+  </ReadPropety>
+</BVLL_IP>
+810A000D010050070C9101911F00
+<BVLL_IP>
+  <Function>ORIGINAL_UNICAST_NPDU</Function>
+  <NetworkCtl>
+    <MessageType>APPICATION</MessageType>
+  </NetworkCtl>
+  <PDUError>
+    <Type>PDU_CONFIRMED_REQUEST</Type>
+    <InvokedId>7</InvokedId>
+    <ServiceChoseError>READPROPERTY_ERROR</ServiceChoseError>
+    <BACNET_ERROR_CLASS>OBJECT</BACNET_ERROR_CLASS>
+    <BACNET_ERROR_CODE>UNKNOWN_OBJECT</BACNET_ERROR_CODE>
+  </PDUError>
+</BVLL_IP>
+810A001101000005080C0C00000000194B00
+<BVLL_IP>
+  <Function>ORIGINAL_UNICAST_NPDU</Function>
+  <NetworkCtl>
+    <MessageType>APPICATION</MessageType>
+  </NetworkCtl>
+  <PDUComfirmedService>
+    <InvokeID>8</InvokeID>
+    <maxAPDUlengthAccepted>UPTO206</maxAPDUlengthAccepted>
+    <ServiceChoice>READPROPERTY</ServiceChoice>
+  </PDUComfirmedService>
+  <ReadPropety>
+    <ObjectId>
+      <ObjectrType>ANALOG_INPUT</ObjectrType>
+      <InstanceNumber>0</InstanceNumber>
+    </ObjectId>
+    <PropertyId>OBJECT_IDENTIFIER</PropertyId>
+  </ReadPropety>
+</BVLL_IP>
+810A000D010050080C9101911F00
+<BVLL_IP>
+  <Function>ORIGINAL_UNICAST_NPDU</Function>
+  <NetworkCtl>
+    <MessageType>APPICATION</MessageType>
+  </NetworkCtl>
+  <PDUError>
+    <Type>PDU_CONFIRMED_REQUEST</Type>
+    <InvokedId>8</InvokedId>
+    <ServiceChoseError>READPROPERTY_ERROR</ServiceChoseError>
+    <BACNET_ERROR_CLASS>OBJECT</BACNET_ERROR_CLASS>
+    <BACNET_ERROR_CODE>UNKNOWN_OBJECT</BACNET_ERROR_CODE>
+  </PDUError>
+</BVLL_IP>
+810A001101000005090C0C00000000198B00
+<BVLL_IP>
+  <Function>ORIGINAL_UNICAST_NPDU</Function>
+  <NetworkCtl>
+    <MessageType>APPICATION</MessageType>
+  </NetworkCtl>
+  <PDUComfirmedService>
+    <InvokeID>9</InvokeID>
+    <maxAPDUlengthAccepted>UPTO206</maxAPDUlengthAccepted>
+    <ServiceChoice>READPROPERTY</ServiceChoice>
+  </PDUComfirmedService>
+  <ReadPropety>
+    <ObjectId>
+      <ObjectrType>ANALOG_INPUT</ObjectrType>
+      <InstanceNumber>0</InstanceNumber>
+    </ObjectId>
+    <PropertyId>PROTOCOL_REVISION</PropertyId>
+  </ReadPropety>
+</BVLL_IP>
+810A000D010050090C9101911F00
+<BVLL_IP>
+  <Function>ORIGINAL_UNICAST_NPDU</Function>
+  <NetworkCtl>
+    <MessageType>APPICATION</MessageType>
+  </NetworkCtl>
+  <PDUError>
+    <Type>PDU_CONFIRMED_REQUEST</Type>
+    <InvokedId>9</InvokedId>
+    <ServiceChoseError>READPROPERTY_ERROR</ServiceChoseError>
+    <BACNET_ERROR_CLASS>OBJECT</BACNET_ERROR_CLASS>
+    <BACNET_ERROR_CODE>UNKNOWN_OBJECT</BACNET_ERROR_CODE>
+  </PDUError>
+</BVLL_IP>
+810A0011010000050A0C0C00000000196000
+<BVLL_IP>
+  <Function>ORIGINAL_UNICAST_NPDU</Function>
+  <NetworkCtl>
+    <MessageType>APPICATION</MessageType>
+  </NetworkCtl>
+  <PDUComfirmedService>
+    <InvokeID>10</InvokeID>
+    <maxAPDUlengthAccepted>UPTO206</maxAPDUlengthAccepted>
+    <ServiceChoice>READPROPERTY</ServiceChoice>
+  </PDUComfirmedService>
+  <ReadPropety>
+    <ObjectId>
+      <ObjectrType>ANALOG_INPUT</ObjectrType>
+      <InstanceNumber>0</InstanceNumber>
+    </ObjectId>
+    <PropertyId>PROTOCOL_OBJECT_TYPES_SUPPORTED</PropertyId>
+  </ReadPropety>
+</BVLL_IP>
+810A000D0100500A0C9101911F00
+<BVLL_IP>
+  <Function>ORIGINAL_UNICAST_NPDU</Function>
+  <NetworkCtl>
+    <MessageType>APPICATION</MessageType>
+  </NetworkCtl>
+  <PDUError>
+    <Type>PDU_CONFIRMED_REQUEST</Type>
+    <InvokedId>10</InvokedId>
+    <ServiceChoseError>READPROPERTY_ERROR</ServiceChoseError>
+    <BACNET_ERROR_CLASS>OBJECT</BACNET_ERROR_CLASS>
+    <BACNET_ERROR_CODE>UNKNOWN_OBJECT</BACNET_ERROR_CODE>
+  </PDUError>
+</BVLL_IP>
+810B00080100100800
+<BVLL_IP>
+  <Function>ORIGINAL_BROADCAST_NPDU</Function>
+  <NetworkCtl>
+    <MessageType>APPICATION</MessageType>
+  </NetworkCtl>
+  <PDUUnConfirmedService>
+    <Service>WHO_IS</Service>
+  </PDUUnConfirmedService>
+</BVLL_IP>
+810B00080100100800
+<BVLL_IP>
+  <Function>ORIGINAL_BROADCAST_NPDU</Function>
+  <NetworkCtl>
+    <MessageType>APPICATION</MessageType>
+  </NetworkCtl>
+  <PDUUnConfirmedService>
+    <Service>WHO_IS</Service>
+  </PDUUnConfirmedService>
+</BVLL_IP>
+810B00100120FFFF00FE10080964096400
+<BVLL_IP>
+  <Function>ORIGINAL_BROADCAST_NPDU</Function>
+  <NetworkCtl>
+    <MessageType>APPICATION</MessageType>
+    <Destination>
+      <Port>FFFF</Port>
+      <IPAddr></IPAddr>
+      <HopCount>0</HopCount>
+    </Destination>
+  </NetworkCtl>
+  <PDUUnConfirmedService>
+    <Service>WHO_IS</Service>
+    <UInteger>64</UInteger>
+    <UInteger>64</UInteger>
+  </PDUUnConfirmedService>
+</BVLL_IP>
+810B00080100100800
+<BVLL_IP>
+  <Function>ORIGINAL_BROADCAST_NPDU</Function>
+  <NetworkCtl>
+    <MessageType>APPICATION</MessageType>
+  </NetworkCtl>
+  <PDUUnConfirmedService>
+    <Service>WHO_IS</Service>
+  </PDUUnConfirmedService>
+</BVLL_IP>
+810B00100120FFFF00FE10080964096400
+<BVLL_IP>
+  <Function>ORIGINAL_BROADCAST_NPDU</Function>
+  <NetworkCtl>
+    <MessageType>APPICATION</MessageType>
+    <Destination>
+      <Port>FFFF</Port>
+      <IPAddr></IPAddr>
+      <HopCount>0</HopCount>
+    </Destination>
+  </NetworkCtl>
+  <PDUUnConfirmedService>
+    <Service>WHO_IS</Service>
+    <UInteger>64</UInteger>
+    <UInteger>64</UInteger>
+  </PDUUnConfirmedService>
+</BVLL_IP>
+810B00100120FFFF00FE10080964096400
+<BVLL_IP>
+  <Function>ORIGINAL_BROADCAST_NPDU</Function>
+  <NetworkCtl>
+    <MessageType>APPICATION</MessageType>
+    <Destination>
+      <Port>FFFF</Port>
+      <IPAddr></IPAddr>
+      <HopCount>0</HopCount>
+    </Destination>
+  </NetworkCtl>
+  <PDUUnConfirmedService>
+    <Service>WHO_IS</Service>
+    <UInteger>64</UInteger>
+    <UInteger>64</UInteger>
+  </PDUUnConfirmedService>
+</BVLL_IP>
+810B00080100100800
+<BVLL_IP>
+  <Function>ORIGINAL_BROADCAST_NPDU</Function>
+  <NetworkCtl>
+    <MessageType>APPICATION</MessageType>
+  </NetworkCtl>
+  <PDUUnConfirmedService>
+    <Service>WHO_IS</Service>
+  </PDUUnConfirmedService>
+</BVLL_IP>
+810B00080100100800
+<BVLL_IP>
+  <Function>ORIGINAL_BROADCAST_NPDU</Function>
+  <NetworkCtl>
+    <MessageType>APPICATION</MessageType>
+  </NetworkCtl>
+  <PDUUnConfirmedService>
+    <Service>WHO_IS</Service>
+  </PDUUnConfirmedService>
+</BVLL_IP>
+810B00080100100800
+<BVLL_IP>
+  <Function>ORIGINAL_BROADCAST_NPDU</Function>
+  <NetworkCtl>
+    <MessageType>APPICATION</MessageType>
+  </NetworkCtl>
+  <PDUUnConfirmedService>
+    <Service>WHO_IS</Service>
+  </PDUUnConfirmedService>
+</BVLL_IP>
+810A00080180060000
+<BVLL_IP>
+  <Function>ORIGINAL_UNICAST_NPDU</Function>
+  <NetworkCtl>
+    <MessageType>NETWORK</MessageType>
+  </NetworkCtl>
+  <NSDU_INITIALIZE_ROUTING_TABLE>query contents</NSDU_INITIALIZE_ROUTING_TABLE>
+</BVLL_IP>
+810B001001A0FFFF000E0701204A010000
+<BVLL_IP>
+  <Function>ORIGINAL_BROADCAST_NPDU</Function>
+  <NetworkCtl>
+    <MessageType>NETWORK</MessageType>
+    <Destination>
+      <Port>FFFF</Port>
+      <IPAddr></IPAddr>
+      <HopCount>0</HopCount>
+    </Destination>
+  </NetworkCtl>
+  <NSDU_INITIALIZE_ROUTING_TABLE_ACK>
+    <Route>
+      <ConnectedDNET>204A</ConnectedDNET>
+      <PortId>1</PortId>
+      <PortInfo>204A</PortInfo>
+    </Route>
+  </NSDU_INITIALIZE_ROUTING_TABLE_ACK>
+</BVLL_IP>
+810A000C01800601204A010000
+<BVLL_IP>
+  <Function>ORIGINAL_UNICAST_NPDU</Function>
+  <NetworkCtl>
+    <MessageType>NETWORK</MessageType>
+  </NetworkCtl>
+  <NSDU_INITIALIZE_ROUTING_TABLE>
+    <Route>
+      <ConnectedDNET>204A</ConnectedDNET>
+      <PortId>1</PortId>
+      <PortInfo>204A</PortInfo>
+    </Route>
+  </NSDU_INITIALIZE_ROUTING_TABLE>
+</BVLL_IP>
+810A00080180070000
+<BVLL_IP>
+  <Function>ORIGINAL_UNICAST_NPDU</Function>
+  <NetworkCtl>
+    <MessageType>NETWORK</MessageType>
+  </NetworkCtl>
+  <NSDU_INITIALIZE_ROUTING_TABLE_ACK></NSDU_INITIALIZE_ROUTING_TABLE_ACK>
+</BVLL_IP>
+810A00080180060000
+<BVLL_IP>
+  <Function>ORIGINAL_UNICAST_NPDU</Function>
+  <NetworkCtl>
+    <MessageType>NETWORK</MessageType>
+  </NetworkCtl>
+  <NSDU_INITIALIZE_ROUTING_TABLE>query contents</NSDU_INITIALIZE_ROUTING_TABLE>
+</BVLL_IP>
+810B001001A0FFFF000E0701204A010000
+<BVLL_IP>
+  <Function>ORIGINAL_BROADCAST_NPDU</Function>
+  <NetworkCtl>
+    <MessageType>NETWORK</MessageType>
+    <Destination>
+      <Port>FFFF</Port>
+      <IPAddr></IPAddr>
+      <HopCount>0</HopCount>
+    </Destination>
+  </NetworkCtl>
+  <NSDU_INITIALIZE_ROUTING_TABLE_ACK>
+    <Route>
+      <ConnectedDNET>204A</ConnectedDNET>
+      <PortId>1</PortId>
+      <PortInfo>204A</PortInfo>
+    </Route>
+  </NSDU_INITIALIZE_ROUTING_TABLE_ACK>
+</BVLL_IP>
+810A00080180060000
+<BVLL_IP>
+  <Function>ORIGINAL_UNICAST_NPDU</Function>
+  <NetworkCtl>
+    <MessageType>NETWORK</MessageType>
+  </NetworkCtl>
+  <NSDU_INITIALIZE_ROUTING_TABLE>query contents</NSDU_INITIALIZE_ROUTING_TABLE>
+</BVLL_IP>
+810B001001A0FFFF000E0701204A010000
+<BVLL_IP>
+  <Function>ORIGINAL_BROADCAST_NPDU</Function>
+  <NetworkCtl>
+    <MessageType>NETWORK</MessageType>
+    <Destination>
+      <Port>FFFF</Port>
+      <IPAddr></IPAddr>
+      <HopCount>0</HopCount>
+    </Destination>
+  </NetworkCtl>
+  <NSDU_INITIALIZE_ROUTING_TABLE_ACK>
+    <Route>
+      <ConnectedDNET>204A</ConnectedDNET>
+      <PortId>1</PortId>
+      <PortInfo>204A</PortInfo>
+    </Route>
+  </NSDU_INITIALIZE_ROUTING_TABLE_ACK>
+</BVLL_IP>

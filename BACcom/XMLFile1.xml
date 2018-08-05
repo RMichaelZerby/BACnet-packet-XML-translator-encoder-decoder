@@ -1,0 +1,45 @@
+﻿<BVLL_IP>
+  <Function>ORIGINAL_UNICAST_NPDU</Function>
+  <NetworkCtl>
+    <MessageType>APPICATION</MessageType>
+    <Destination>
+      <Port>8266</Port>
+      <IPAddr>74.32.101.0.0.0.</IPAddr>
+      <HopCount>0</HopCount>
+    </Destination>
+  </NetworkCtl>
+  <PDUComfirmedService>
+    <InvokeID>1</InvokeID>
+    <maxAPDUlengthAccepted>UPTO206 </maxAPDUlengthAccepted>
+    <ServiceChoice>READPROPERTY</ServiceChoice>
+  </PDUComfirmedService>
+  <ReadPropety>
+    <ObjectId>
+      <ObjectrType>DEVICE</ObjectrType>
+      <InstanceNumber>101</InstanceNumber>
+    </ObjectId>
+    <PropertyId>OBJECT_LIST</PropertyId>
+  </ReadPropety>
+</BVLL_IP>
+
+<BVLL_IP>
+  <Function>ORIGINAL_UNICAST_NPDU</Function>
+  <NetworkCtl>
+    <MessageType>APPICATION</MessageType>
+    <Source>
+      <Port>8266</Port>
+      <IPAddr>74.32.101.0.0.0.</IPAddr>
+    </Source>
+  </NetworkCtl>
+  <ComplexAck>
+    <InvokeID>1</InvokeID>
+    <serviceACKchoice>READPROPERTY</serviceACKchoice>
+    <ReadPropety>
+      <ObjectId>
+        <ObjectrType>DEVICE</ObjectrType>
+        <InstanceNumber>101</InstanceNumber>
+      </ObjectId>
+      <PropertyId>OBJECT_LIST</PropertyId>
+    </ReadPropety>
+  </ComplexAck>
+</BVLL_IP>
