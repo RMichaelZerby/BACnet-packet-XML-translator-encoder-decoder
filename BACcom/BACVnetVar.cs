@@ -127,7 +127,7 @@ namespace BACcom
             return (byte)(t & 0x07);
         }
 
-        public enum APP_TAG : byte // 20.2.1.4 Application Tags
+        public enum APP_TAG : byte // Application Tags
         { // pg 626
             NULL = 0,
             BOOLEAN = 1,
@@ -137,11 +137,11 @@ namespace BACcom
             DOUBLE = 5,   // Double (ANSI/IEEE-754 double precision floating point)
             OSTRING = 6,
             CSTRING = 7,
-            BSTRING = 8,  // 20.2.10 Encoding of a Bit String Value
-            ENUM = 9,     // 20.2.11 Encoding of an Enumerated Value 
-            DATE = 10,    // 20.2.12 Encoding of a Date Value
-            TIME = 11,    // 20.2.13 Encoding of a Time Value  
-            OBJECT = 12  // 20.2.14 Encoding of an Object Identifier Value
+            BSTRING = 8,  // Encoding of a Bit String Value
+            ENUM = 9,     // Encoding of an Enumerated Value 
+            DATE = 10,    // Encoding of a Date Value
+            TIME = 11,    // Encoding of a Time Value  
+            OBJECT = 12  // Encoding of an Object Identifier Value
 
         }
 
@@ -155,12 +155,12 @@ namespace BACcom
             DOUBLE = 5,   // Double (ANSI/IEEE-754 double precision floating point)
             OSTRING = 6,
             CSTRING = 7,
-            BSTRING = 8,  // 20.2.10 Encoding of a Bit String Value
-            ENUM = 9,     // 20.2.11 Encoding of an Enumerated Value 
-            DATE = 10,    // 20.2.12 Encoding of a Date Value
-            TIME = 11,    // 20.2.13 Encoding of a Time Value  
-            OBJECT = 12,  // 20.2.14 Encoding of an Object Identifier Value
-            ANY = 99      // 20.2.19 Encoding of a Value of the ANY Type (This is a made up value)
+            BSTRING = 8,  // Encoding of a Bit String Value
+            ENUM = 9,     // Encoding of an Enumerated Value 
+            DATE = 10,    // Encoding of a Date Value
+            TIME = 11,    // Encoding of a Time Value  
+            OBJECT = 12,  // Encoding of an Object Identifier Value
+            ANY = 99      // Encoding of a Value of the ANY Type (This is a made up value)
 
 
         }
